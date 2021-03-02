@@ -7,7 +7,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 
-	"github.com/m-mizutani/falconstream/pkg/falconstream"
+	"github.com/fivetran/falconstream/pkg/falconstream"
 )
 
 var logLevelMap = map[string]logrus.Level{

@@ -18,7 +18,7 @@
 ### Setup
 
 ```bsash
-go get github.com/m-mizutani/falconstream
+go get github.com/fivetran/falconstream
 ```
 
 ### Run and output to console

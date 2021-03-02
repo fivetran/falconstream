@@ -14,7 +14,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/k0kubun/pp"
-	"github.com/m-mizutani/gofalcon"
+	"github.com/fivetran/gofalcon"
 	"github.com/pkg/errors"
 )
 

@@ -1,7 +1,7 @@
 package falconstream
 
 import (
-	"github.com/m-mizutani/gofalcon"
+	"github.com/fivetran/gofalcon"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

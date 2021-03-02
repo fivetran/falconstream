@@ -10,6 +10,8 @@ github.com/cpuguy83/go-md2man/v2 v2.0.0/go.mod h1:maD7wRr/U5Z6m/iR4s+kqSMx2CaBsr
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/fivetran/gofalcon v0.0.0-20210302052135-2c3684bfce96 h1:PaLGCwnoNiNuch6ez035idBLNNRtjf3AoIa2JoQfcAY=
+github.com/fivetran/gofalcon v0.0.0-20210302052135-2c3684bfce96/go.mod h1:pD22R5VY/1TKbmghZ48Q/0/5eavCs3wVDwpG3ZFBTzQ=
 github.com/google/uuid v1.1.1 h1:Gkbcsh/GbpXz7lPftLA3P6TYMwjCLYm83jiFQZF/3gY=
 github.com/google/uuid v1.1.1/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af h1:pmfjZENx5imkbgOkpRUYLnmbU7UEFbjtDA2hxJ1ichM=
@@ -27,12 +29,6 @@ github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORN
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0 h1:45sCR5RtlFHMR4UwH9sdQ5TC8v0qDQCHnXt+kaKSTVE=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
-github.com/m-mizutani/gofalcon v0.0.0-20191002002738-fc80925e5846 h1:+ff0HCnCxIeKuShlp5sbHa2aKD7fW4UTpr+WUvQ5SzU=
-github.com/m-mizutani/gofalcon v0.0.0-20191002002738-fc80925e5846/go.mod h1:zvEcx9YlRozdAz8ig7uOhRAvtL5zym6DIfxvEFj+dMs=
-github.com/m-mizutani/gofalcon v0.0.0-20191002133559-828db2f40373 h1:ySxNN1Vbe5Qy8te2wiNCtaNQdKSp0CI8M/jVog6hmvM=
-github.com/m-mizutani/gofalcon v0.0.0-20191002133559-828db2f40373/go.mod h1:zvEcx9YlRozdAz8ig7uOhRAvtL5zym6DIfxvEFj+dMs=
-github.com/m-mizutani/gofalcon v0.0.0-20191003010721-fc6517c9acd1 h1:LusTOd39cHN91GeGP3EWM3uFZqsaLYCx8NYBbLklpcU=
-github.com/m-mizutani/gofalcon v0.0.0-20191003010721-fc6517c9acd1/go.mod h1:zvEcx9YlRozdAz8ig7uOhRAvtL5zym6DIfxvEFj+dMs=
 github.com/mattn/go-colorable v0.1.4 h1:snbPLB8fVfU9iwbbo30TPtbLRzwWu6aJS6Xh4eaaviA=
 github.com/mattn/go-colorable v0.1.4/go.mod h1:U0ppj6V5qS13XJ6of8GYAs25YV2eR4EVcfRqFIhoBtE=
 github.com/mattn/go-isatty v0.0.8/go.mod h1:Iq45c/XA43vh69/j3iqttzPXn0bhXyGjM0Hdxcsrc5s=
