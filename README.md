@@ -1,3 +1,7 @@
+# Fivetran Fork
+
+Forked from https://github.com/m-mizutani/falconstream to use a modified gofalcon with API us-2 endpoint and Dockerized.
+
 # FalconStream
 
 `falconstream` is event forwarder of CrowdStrike Falcon. CrowdStrike Falcon has Event Stream API and the API provides events regarding audit, malware detection and so on. `falconstream` receives the events continuously and can store them to local file system or Amazon S3. (Also Amazon Kinesis Data Firehose is planned to implement)
@@ -79,6 +83,19 @@ NOTE: You need to setup a `secret` including `falcon_client_id` and `falcon_secr
 
 ```bash
 $ falconstream --aws-secret-arn arn:aws:secretsmanager:ap-northeast-1:1234567890:secret:my-secret
+```
+
+### Dockerfile
+
+Build docker image
+
+```bash
+$ docker build -t <tag_name> .
+```
+
+Test Docker Image
+```bash
+docker run -e FALCON_CLIENT_ID -e FALCON_SECRET --rm <image_name> ./falconstream
 ```
 
 ## License
